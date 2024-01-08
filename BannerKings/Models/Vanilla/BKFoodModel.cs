@@ -160,7 +160,7 @@ namespace BannerKings.Models.Vanilla
             if (cityCraftsmen > 0)
             {
                 var craftsmenConsumption = cityCraftsmen * CRAFTSMEN_FOOD;
-                result.Add(craftsmenConsumption, new TextObject("Craftsmen consumption"));
+                result.Add(craftsmenConsumption, new TextObject("{=d0YJZ6Z1}Craftsmen consumption"));
             }
 
             if (BannerKingsConfig.Instance.PolicyManager.IsDecisionEnacted(data.Settlement, "decision_ration"))

@@ -126,7 +126,7 @@ namespace BannerKings.Managers.Institutions.Religions.Doctrines
             Reavers = new Doctrine("Reavers",
                 new TextObject("{=RCHN6ovr}Reavers"),
                 new TextObject("{=pA8rNnUH}Raiding and pillaging is understood as a pious practice. This faith"),
-                new TextObject("Piety gain raiding and fief pillaging of different cultures"),
+                new TextObject("{=0EVuzzOU}Piety gain raiding and fief pillaging of different cultures"),
                 new List<Doctrine>()
                 {
                     OsricsVengeance
@@ -135,7 +135,7 @@ namespace BannerKings.Managers.Institutions.Religions.Doctrines
             Warlike = new Doctrine("Warlike",
                 new TextObject("{=P5ptbVxu}Warlike"),
                 new TextObject("{=kyB8tkgY}Combat is considered by the faith a pious practice. The gods decide the winner, and to attempt to escape our fate through cravenness is an offence to the gods."),
-                new TextObject("Piety gain as battle reward"),
+                new TextObject("{=0EVuzzOU}Piety gain as battle reward"),
                 new List<Doctrine>()
                 {
                     OsricsVengeance

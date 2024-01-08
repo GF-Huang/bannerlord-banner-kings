@@ -69,12 +69,12 @@ namespace BannerKings.Behaviours
 
             if (BannerKingsConfig.Instance.ReligionsManager.GetPiety(hero) < piety)
             {
-                return new ValueTuple<bool, TextObject>(false, new TextObject("Not enough piety."));
+                return new ValueTuple<bool, TextObject>(false, new TextObject("{=dxwTedS0}Not enough piety."));
             }
 
             if (hero.Clan.Influence < cost)
             {
-                return new ValueTuple<bool, TextObject>(false, new TextObject("Not enough influence."));
+                return new ValueTuple<bool, TextObject>(false, new TextObject("{=hVJNXynE}Not enough influence."));
             }
 
             return result;

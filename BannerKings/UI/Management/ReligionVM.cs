@@ -236,13 +236,13 @@ namespace BannerKings.UI.Management
 
                         if (BannerKingsConfig.Instance.ReligionsManager.GetPiety(Hero.MainHero) < piety)
                         {
-                            hint = new TextObject("Not enough piety.");
+                            hint = new TextObject("{=dxwTedS0}Not enough piety.");
                             possible = false;
                         }
 
                         if (Clan.PlayerClan.Influence < cost)
                         {
-                            hint = new TextObject("Not enough influence.");
+                            hint = new TextObject("{=hVJNXynE}Not enough influence.");
                             possible = false;
                         }
 
@@ -266,8 +266,8 @@ namespace BannerKings.UI.Management
             }
             
             MBInformationManager.ShowMultiSelectionInquiry(new MultiSelectionInquiryData(
-                new TextObject("Banish Preacher").ToString(),
-                new TextObject("`{=!}As overlord of this fief, you are able to banish preachers that do not represent your faith. They must not represent the local Dominant Religion.{newline}Banishing a preacher allows you to diminish their faith's presence, and thus increasing your own. Such act costs both piety and influence. Moreover, banishing preachers yields significant negative impact to local loyalty.").ToString(),
+                new TextObject("{=NSsVwu3t}Banish Preacher").ToString(),
+                new TextObject("{=W14f8bQv}As overlord of this fief, you are able to banish preachers that do not represent your faith. They must not represent the local Dominant Religion.{newline}Banishing a preacher allows you to diminish their faith's presence, and thus increasing your own. Such act costs both piety and influence. Moreover, banishing preachers yields significant negative impact to local loyalty.").ToString(),
                 elements,
                 true,
                 1,

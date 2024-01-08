@@ -184,7 +184,7 @@ namespace BannerKings.UI.Religion
                 new TextObject("{=6NYxLhjH}The main culture associated with this faith.")));
 
             Aspects.Add(new ReligionElementVM(new TextObject("{=gL6y1Pgr}Faith Seat"),
-                currentReligion.Faith.FaithSeat != null ? currentReligion.Faith.FaithSeat.Name : new TextObject("Nonexistent"),
+                currentReligion.Faith.FaithSeat != null ? currentReligion.Faith.FaithSeat.Name : new TextObject("{=5n3dJTGc}Nonexistent"),
                 new TextObject("{=ZvpbQfPP}The Faith Seat is the most religiously important fief within the faith. When the Seat is not held by a member of the faith, it loses a great deal of fervor. The holder of the Seat is given extra influence limit and piety according to the stability of the Seat, and thus is encouraged to give it good management.")));
 
             if (sites.Count > 0)
@@ -201,7 +201,7 @@ namespace BannerKings.UI.Religion
             }
 
             var fervor = BannerKingsConfig.Instance.ReligionModel.CalculateFervor(currentReligion);
-            Aspects.Add(new ReligionElementVM(new TextObject("Fervor"),
+            Aspects.Add(new ReligionElementVM(new TextObject("{=AfsRi9wL}Fervor"),
                 new TextObject("{=!}" + FormatValue(fervor.ResultNumber)),
                 new TextObject("{=ez3NzFgO}{TEXT}\n{EXPLANATIONS}")
                     .SetTextVariable("TEXT",

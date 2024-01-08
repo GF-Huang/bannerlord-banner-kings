@@ -118,7 +118,7 @@ namespace BannerKings.UI.Extensions
                 }
                 else
                 {
-                    TruceText = new TextObject("None").ToString();
+                    TruceText = new TextObject("{=5n3dJTGc}None").ToString();
                 }
 
                 StanceLink stance = currentKingdom.GetStanceWith(targetKingdom);
@@ -129,7 +129,7 @@ namespace BannerKings.UI.Extensions
                 }
                 else
                 {
-                    AllianceText = new TextObject("None").ToString();
+                    AllianceText = new TextObject("{=5n3dJTGc}None").ToString();
                 }
 
 

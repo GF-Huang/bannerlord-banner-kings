@@ -283,7 +283,7 @@ namespace BannerKings.UI.Estates
         public string RetinueText => new TextObject("{=06vrmp18}Retinue").ToString();
 
         [DataSourceProperty]
-        public string SlavesText => new TextObject("Slaves").ToString(); 
+        public string SlavesText => new TextObject("{=8xhVr4rK}Slaves").ToString(); 
 
         [DataSourceProperty]
         public string GrantText => new TextObject("{=dugq4xHo}Grant").ToString();

@@ -197,7 +197,7 @@ namespace BannerKings.Managers.Titles.Governments
                });
 
             Imperial.Initialize(new TextObject("{=SW29YLBZ}Imperial"),
-               new TextObject("Imperial successions, despite not being elective, can be quite uncertain."),
+               new TextObject("{=SW29YLBZ}Imperial successions, despite not being elective, can be quite uncertain."),
                false,
                1f,
                -0.2f,
@@ -376,7 +376,7 @@ namespace BannerKings.Managers.Titles.Governments
                    result.Add(candidate.GetSkillValue(DefaultSkills.Tactics) / 3f, DefaultSkills.Tactics.Name);
                    result.Add(candidate.GetSkillValue(DefaultSkills.Charm) / 3f, DefaultSkills.Charm.Name);
                    result.Add(candidate.GetSkillValue(BKSkills.Instance.Lordship) / 3f, DefaultSkills.Charm.Name);
-                   result.Add(candidate.Age * 3f, new TextObject("Age"));
+                   result.Add(candidate.Age * 3f, new TextObject("{=uUmEcuV8}Age"));
 
                    result.Add(candidate.Clan.Tier * 50f, GameTexts.FindText("str_clan_tier_bonus"));
 
@@ -423,7 +423,7 @@ namespace BannerKings.Managers.Titles.Governments
 
                     Religion religion = BannerKingsConfig.Instance.ReligionsManager.GetHeroReligion(candidate);
                     result.Add(BannerKingsConfig.Instance.ReligionsManager.GetPiety(religion, candidate) / 2f, 
-                        new TextObject("Piety"));
+                        new TextObject("{=0EVuzzOU}Piety"));
 
                     foreach (var tuple in religion.Faith.Traits)
                     {

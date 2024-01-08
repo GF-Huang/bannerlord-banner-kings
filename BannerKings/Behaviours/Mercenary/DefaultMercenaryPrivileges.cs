@@ -48,7 +48,7 @@ namespace BannerKings.Behaviours.Mercenary
                 },
                 (MercenaryCareer career) => true);
 
-            WorkshopGrant.Initialize(new TextObject("Workshop Grant"),
+            WorkshopGrant.Initialize(new TextObject("{=jvVup6nx}Workshop Grant"),
                 new TextObject("{=ViDeTjkQ}Acquire a workshop property. The property will be situated in one of the towns of your contractor."),
                 new TextObject("{=9PCO8Wkn}Your contractor is not currently capable of granting a workshop, due to lacking themselves or funds to subsidize the acquisition of one. Alternatively, you've reached your workshop limit.\nPoints: {POINTS}\nMax level: {LEVEL}")
                 .SetTextVariable("LEVEL", 2)
@@ -132,7 +132,7 @@ namespace BannerKings.Behaviours.Mercenary
                 },
                 (MercenaryCareer career) => true);
 
-            BaronyGrant.Initialize(new TextObject("Barony Grant"),
+            BaronyGrant.Initialize(new TextObject("{=JLJ3C1MS}Barony Grant"),
                 new TextObject("{=53uskzyT}Become landed in the fashion of a lord. Request a castle alongside it's barony-level title. The settlement ownership will not undo your mercenary contract."),
                 new TextObject("{=r88bme7w}You must not own any settlements or titles. Your contractor may not have an extra castle and it's title available.\nPoints: {POINTS}\nMax level: {LEVEL}")
                 .SetTextVariable("LEVEL", 1)
@@ -158,7 +158,7 @@ namespace BannerKings.Behaviours.Mercenary
                     return false;
                 });
 
-            FullPeerage.Initialize(new TextObject("Full Peerage"),
+            FullPeerage.Initialize(new TextObject("{=9OhMK2Wk}Full Peerage"),
                 new TextObject("{=CBzT54PD}For your extraordinary service, have your clan considered a full Peer. While the Peerage won't be effective until you leave your mercenary life behind, you will be able to join kingdoms as the elite of the nobility, rather than a lesser Peer."),
                 new TextObject("{=3Hg6tAbR}Your clan must not have a Peerage that allows all Peer privileges.\n\nPoints: {POINTS}\nMax level: {LEVEL}")
                 .SetTextVariable("POINTS", 1000)

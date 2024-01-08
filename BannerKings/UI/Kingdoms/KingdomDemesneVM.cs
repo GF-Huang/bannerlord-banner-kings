@@ -151,8 +151,8 @@ namespace BannerKings.UI.Kingdoms
                     ));
             }
 
-            ShowOptions(new TextObject("Governments"),
-                new TextObject("Governments are a quintessential part of a realm's legal framework. You may propose a change to the government form that will be voted on by the peers. Ruling clans will often strongly disagree with such changes.{newline}{newline}For more information, search for Governments in Encyclopedia."),
+            ShowOptions(new TextObject("{=PSrEtF5L}Governments"),
+                new TextObject("{=PSrEtF5L}Governments are a quintessential part of a realm's legal framework. You may propose a change to the government form that will be voted on by the peers. Ruling clans will often strongly disagree with such changes.{newline}{newline}For more information, search for Governments in Encyclopedia."),
                 aspects);
         }
 
@@ -292,13 +292,13 @@ namespace BannerKings.UI.Kingdoms
         }
 
         [DataSourceProperty]
-        public string GovernmentText => new TextObject("Government").ToString();
+        public string GovernmentText => new TextObject("{=PSrEtF5L}Government").ToString();
 
         [DataSourceProperty]
-        public string InheritanceText => new TextObject("Inheritance").ToString();
+        public string InheritanceText => new TextObject("{=aELuNrRC}Inheritance").ToString();
 
         [DataSourceProperty]
-        public string GenderLawText => new TextObject("Gender Law").ToString();
+        public string GenderLawText => new TextObject("{=LESrJQvC}Gender Law").ToString();
 
         [DataSourceProperty]
         public string StructureText => new TextObject("{=kyB8tkgY}Contract Structure").ToString();

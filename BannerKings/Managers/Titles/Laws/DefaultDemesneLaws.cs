@@ -451,7 +451,7 @@ namespace BannerKings.Managers.Titles.Laws
 
             TenancyFull.Initialize(new TextObject("{=JEbygACX}Full Tenancy"),
               new TextObject("{=uf1BxiQJ}Under Full Tenancy, serfdom does not thrive anymore. Instead, all non-slave commoners will tend to be free tenants, who rent their land under contracts of goods or monetary taxation. Tenants are of higher class than serfs and are not boun to their land, and so have more mobility and are less exploitable for taxes."),
-              new TextObject("Serfs will tend to be 100% replaced by tenants\nTenants pay less taxes but are more stable and prosperous"),
+              new TextObject("{=jH7cWD5r}Serfs will tend to be 100% replaced by tenants\nTenants pay less taxes but are more stable and prosperous"),
               DemesneLawTypes.Tenancy,
               -0.5f,
               1f,
@@ -460,7 +460,7 @@ namespace BannerKings.Managers.Titles.Laws
 
             TenancyMixed.Initialize(new TextObject("{=oT9UmZUt}Mixed Tenure"),
               new TextObject("{=z5ox1p40}Mixed tenure allows the coexistence of both tenants and serfs. Their compositions will tend to be similar."),
-              new TextObject("Serfs will tend to be 50% replaced by tenants"),
+              new TextObject("{=jH7cWD5r}Serfs will tend to be 50% replaced by tenants"),
               DemesneLawTypes.Tenancy,
               0.2f,
               -0.3f,

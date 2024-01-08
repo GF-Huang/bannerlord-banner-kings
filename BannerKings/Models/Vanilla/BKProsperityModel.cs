@@ -99,7 +99,7 @@ namespace BannerKings.Models.Vanilla
             if (data == null) return base.CalculateProsperityChange(fortification, includeDescriptions);
 
             float craftsmen = data.GetTypeCount(PopType.Craftsmen);
-            explainedNumber.Add(craftsmen * 0.0005f, new TextObject("Craftsmen output"));
+            explainedNumber.Add(craftsmen * 0.0005f, new TextObject("{=d0YJZ6Z1}Craftsmen output"));
 
             float slaves = data.GetTypeCount(PopType.Slaves);
             explainedNumber.Add(slaves * -0.0001f, new TextObject("{=FJSfBwzp}Slave population"));
@@ -115,7 +115,7 @@ namespace BannerKings.Models.Vanilla
 
             var factor = data.Stability - 1f + data.Stability;
             var stabilityImpact = STABILITY_FACTOR * factor;
-            explainedNumber.Add(stabilityImpact, new TextObject("Stability"));
+            explainedNumber.Add(stabilityImpact, new TextObject("{=cVOU505N}Stability"));
 
             for (var i = 0; i < 4; i++)
             {

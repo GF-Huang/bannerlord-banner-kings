@@ -41,7 +41,7 @@ namespace BannerKings.Models.Vanilla
                 if (title != null)
                 {
                     Government government = title.Contract.Government;
-                    result.Add(government.Mercantilism, new TextObject("Government"));
+                    result.Add(government.Mercantilism, new TextObject("{=PSrEtF5L}Government"));
                 }
             }
 
@@ -68,7 +68,7 @@ namespace BannerKings.Models.Vanilla
             }
 
             var mercantilism = data.EconomicData.Mercantilism.ResultNumber;
-            result.Add(0.25f * mercantilism, new TextObject("Mercantilism"));
+            result.Add(0.25f * mercantilism, new TextObject("{=5eHCGMEK}Mercantilism"));
 
             var government = BannerKingsConfig.Instance.TitleManager.GetSettlementGovernment(settlement);
             if (government.Equals(DefaultGovernments.Instance.Feudal))
@@ -366,7 +366,7 @@ namespace BannerKings.Models.Vanilla
                 };
             }
 
-            result.AddFactor(data.EconomicData.ProductionEfficiency.ResultNumber, new TextObject("Production efficiency"));
+            result.AddFactor(data.EconomicData.ProductionEfficiency.ResultNumber, new TextObject("{=Q0AgGuB0}Production efficiency"));
             if (privateSlaves > 0f)
             {
                 result.Add(privateSlaves * tax, new TextObject("{=yjbfHwog}Private slaves"));

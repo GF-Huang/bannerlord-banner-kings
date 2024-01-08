@@ -490,7 +490,7 @@ namespace BannerKings.Managers.Court.Members
 
                     if (id == "battania") return new TextObject("{=ELf8YFXe}Draoidh");
                     if (id == "sturgia") return new TextObject("{=ogAzFznn}Volkhvs");
-                    if (id == "aserai") return new TextObject("Murshid");
+                    if (id == "aserai") return new TextObject("{=SQq0eH3Z}Murshid");
 
                     return new TextObject("{=ZNzX7SKR}Seneschal");
                 });

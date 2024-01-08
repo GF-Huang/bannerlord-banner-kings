@@ -39,7 +39,7 @@ namespace BannerKings.UI.Mercenary
             .SetTextVariable("KINGDOM", Career?.Kingdom.Name)
             .ToString();
         [DataSourceProperty] public string RequestPrivilegeText => new TextObject("{=ZYyxmOv9}Request").ToString();
-        [DataSourceProperty] public string PrivilegesText => new TextObject("Privileges").ToString();
+        [DataSourceProperty] public string PrivilegesText => new TextObject("{=77D4i3pG}Privileges").ToString();
         [DataSourceProperty] public string NoPrivilegesText => new TextObject("{=2uHBLzKE}No privileges yet! Acquire Career Points through service time and merit. Request privileges by spending these points.").ToString();
         [DataSourceProperty] public string PointsHeaderText => new TextObject("{=kyB8tkgY}Career Points").ToString();
         [DataSourceProperty] public string ReputationHeaderText => new TextObject("{=bLLovmn9}Reputation").ToString();

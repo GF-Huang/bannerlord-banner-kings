@@ -75,7 +75,7 @@ namespace BannerKings.Managers.Cultures
                 null,
                 new TextObject("{=9WOQTiBr}Emperor"),
                 new TextObject("{=gbpokx6s}Empress"),
-                new TextObject("Empire"));
+                new TextObject("{=ZNs1vdEJ}Empire"));
 
             DefaultKing = CulturalTitleName.CreateKingdom("DefaultKing",
                 null,

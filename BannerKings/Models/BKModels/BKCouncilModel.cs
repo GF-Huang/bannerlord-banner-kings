@@ -85,7 +85,7 @@ namespace BannerKings.Models.BKModels
             }
 
             result.Add(position.InfluenceCosts() * 150f, new TextObject("{=5zVvff39}Position's influence"));
-            result.AddFactor(position.Competence.ResultNumber, new TextObject("Competence"));
+            result.AddFactor(position.Competence.ResultNumber, new TextObject("{=RMUyXy4e}Competence"));
 
             return result;
         }

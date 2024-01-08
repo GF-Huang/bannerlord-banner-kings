@@ -116,7 +116,7 @@ namespace BannerKings.UI.Management.Villages
                     .SetTextVariable("EXPLANATIONS", productionExplained.GetExplanations())
                     .ToString()));
 
-            ProductionInfo.Add(new InformationElement(new TextObject("Items Produced:").ToString(),
+            ProductionInfo.Add(new InformationElement(new TextObject("{=hmtRGrpt}Items Produced:").ToString(),
                 productionString,
                 new TextObject("{=0RAPEDaT}Goods locally produced by the population.").ToString()));
         }

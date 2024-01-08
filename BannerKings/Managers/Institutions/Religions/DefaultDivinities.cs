@@ -89,7 +89,7 @@ namespace BannerKings.Managers.Institutions.Religions
             GodsFate.Initialize(new TextObject("{=rMbnANLs}Gods of Fate"),
               new TextObject("{=dTiAb57A}According to the Junme, the world revolves around the concept of Urthr - or in other words, fate. The gods are stewards of the Great Oak that mankind inhabits, keeping its roots and leaves from rotting. Moreover, the gods are the force of justice that fights Ásbani, the God-Devouring Serpent. The gods of fate, they say, give man what is just - rewards to those who are brave and virtuous, and punishment to the wicked, for they do not weave what choices a man makes, but they do the consequences."),
               new TextObject("{=5n79UcKp}Signicantly increased renown and influence from battles"),
-              new TextObject("Gods"));
+              new TextObject("{=iE8OCyCv}Gods"));
 
             Gundar.Initialize(new TextObject("{=PNCUXEeh}Gundar"),
                new TextObject("{=dTiAb57A}According to the Junme, the world revolves around the concept of Urthr - or in other words, fate. The gods are stewards of the Great Oak that mankind inhabits, keeping its roots and leaves from rotting. Moreover, the gods are the force of justice that fights Ásbani, the God-Devouring Serpent. The gods of fate, they say, give man what is just - rewards to those who are brave and virtuous, and punishment to the wicked, for they do not weave what choices a man makes, but they do the consequences."),
@@ -207,7 +207,7 @@ namespace BannerKings.Managers.Institutions.Religions
                 new TextObject("{=!}"),
                 300,
                 new TextObject("{=3QEPY0Cn}The Calradoi call him Koronvaldos, but the god of the Rhodoks is called Kronvalt in our Wilunding tongue. The name means “king-chooser”. "),
-                new TextObject(""));
+                new TextObject("{=!}"));
 
             AseraMain = new Divinity("asera-main");
             AseraMain.Initialize(new TextObject("{=7BJOY24H}Asera the Patriarch"),
@@ -300,7 +300,7 @@ namespace BannerKings.Managers.Institutions.Religions
 
             TreeloreMain.Initialize(new TextObject("{=xUv2na6h}Pérkken, Thunder Wielder"),
                 new TextObject("{=KhmWdsJa}Once, there was naught but the Great Oak, the sea and sky.."),
-                new TextObject("Stability for all settlements of acceptable cultures\nRenown gain for every successful raid on foreign villages"),
+                new TextObject("{=cVOU505N}Stability for all settlements of acceptable cultures\nRenown gain for every successful raid on foreign villages"),
                 new TextObject("{=z0VYqrO5}Supreme God"));
 
             Hirvi.Initialize(new TextObject("{=V8LEokOc}Suurihirvi"),

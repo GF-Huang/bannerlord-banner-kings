@@ -40,7 +40,7 @@ namespace BannerKings.Models.BKModels
                 result.Add(craftsmen / 12500f, new TextObject("{=d0YJZ6Z1}Craftsmen"));
             }
 
-            result.AddFactor(data.Stability - 0.75f, new TextObject("Stability"));
+            result.AddFactor(data.Stability - 0.75f, new TextObject("{=cVOU505N}Stability"));
 
             if (settlement.Owner != null)
             {

@@ -21,7 +21,7 @@ namespace BannerKings.Managers.Institutions.Religions.Faiths.Rites.Vlandia
         public override void SetDialogue()
         {
             MBTextManager.SetTextVariable("CLERGYMAN_RITE_CONFIRM",
-                new TextObject("{=!}Will you offer these fine steeds to Wilund, the Smith?"));
+                new TextObject("{=0DGda79M}Will you offer these fine steeds to Wilund, the Smith?"));
         }
     }
 }

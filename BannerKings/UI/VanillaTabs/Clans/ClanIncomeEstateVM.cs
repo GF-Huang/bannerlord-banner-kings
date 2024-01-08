@@ -93,7 +93,7 @@ namespace BannerKings.UI.VanillaTabs.Clans
                ));
             
 
-            ItemProperties.Add(new SelectableItemPropertyVM(new TextObject("Workforce", null).ToString(),
+            ItemProperties.Add(new SelectableItemPropertyVM(new TextObject("{=8EX6VriS}Workforce", null).ToString(),
                (Estate.Population + Estate.Slaves).ToString(),
                false,
                new BasicTooltipViewModel(() => UIHelper.GetEstateWorkforceTooltip(Estate))
@@ -135,7 +135,7 @@ namespace BannerKings.UI.VanillaTabs.Clans
                ));
 
             ExplainedNumber production = Estate.Production;
-            TextObject productionT = new TextObject("Production");
+            TextObject productionT = new TextObject("{=eMZikYJ3}Production");
             ItemProperties.Add(new SelectableItemPropertyVM(productionT.ToString(),
                production.ResultNumber.ToString("0.00") + '%',
                false,

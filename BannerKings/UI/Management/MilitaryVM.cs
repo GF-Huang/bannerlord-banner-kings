@@ -354,7 +354,7 @@ namespace BannerKings.UI.Management
                     {
                         InformationManager.DisplayMessage(new InformationMessage($"Not enough men available to raise militia at {settlement.Name}"));
                     }
-                }, new TextObject("Raise the current militia of this village."));
+                }, new TextObject("{=smXw5vsz}Raise the current militia of this village."));
             }
 
             militiaItem = (BKMilitiaPolicy) BannerKingsConfig.Instance.PolicyManager.GetPolicy(settlement, "militia");

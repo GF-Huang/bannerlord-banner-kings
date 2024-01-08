@@ -128,7 +128,7 @@ namespace BannerKings.Models.Vanilla
                 baseResult.Add(1f, new TextObject("{=PSrEtF5L}Government"));
             }
 
-            baseResult.Add(2f * data.Autonomy, new TextObject("Autonomy"));
+            baseResult.Add(2f * data.Autonomy, new TextObject("{=xMsWoSnL}Autonomy"));
 
             BannerKingsConfig.Instance.CourtManager.ApplyCouncilEffect(ref baseResult, town.OwnerClan.Leader,
                 DefaultCouncilPositions.Instance.Chancellor,

@@ -121,26 +121,26 @@ namespace BannerKings.Models.Vanilla
                     if (craftsmen > 0f)
                     {
                         baseResult.Add(MBMath.ClampFloat(craftsmen * GetCraftsmenOutput(title), 0f, 50000f) * BannerKingsSettings.Instance.TaxIncome,
-                            new TextObject("{=5mCY3JCP}{CLASS} output").SetTextVariable("CLASS", new TextObject("Craftsmen")));
+                            new TextObject("{=5mCY3JCP}{CLASS} output").SetTextVariable("CLASS", new TextObject("{=d0YJZ6Z1}Craftsmen")));
                     }
 
                     if (serfs > 0f)
                     {
                         baseResult.Add(MBMath.ClampFloat(serfs * SERF_OUTPUT, 0f, 50000f) * BannerKingsSettings.Instance.TaxIncome,
-                            new TextObject("{=5mCY3JCP}{CLASS} output").SetTextVariable("CLASS", new TextObject("Serfs")));
+                            new TextObject("{=5mCY3JCP}{CLASS} output").SetTextVariable("CLASS", new TextObject("{=jH7cWD5r}Serfs")));
                     }
 
                     if (slaves > 0f)
                     {
                         baseResult.Add(MBMath.ClampFloat(slaves * GetSlaveOutput(title), 0f, 50000f) * BannerKingsSettings.Instance.TaxIncome,
-                            new TextObject("{=5mCY3JCP}{CLASS} output").SetTextVariable("CLASS", new TextObject("Slaves")));
+                            new TextObject("{=5mCY3JCP}{CLASS} output").SetTextVariable("CLASS", new TextObject("{=8xhVr4rK}Slaves")));
                     }
 
                     if (tenants > 0f)
                     {
                         baseResult.Add(MBMath.ClampFloat(tenants * TENANT_OUTPUT, 0f, 50000f) * BannerKingsSettings.Instance.TaxIncome,
                                                    new TextObject("{=5mCY3JCP}{CLASS} output")
-                                                   .SetTextVariable("CLASS", new TextObject("Tenants")));
+                                                   .SetTextVariable("CLASS", new TextObject("{=h9UDWQcM}Tenants")));
                     }
 
                     var buildingBehavior = TaleWorlds.CampaignSystem.Campaign.Current.GetCampaignBehavior<BKBuildingsBehavior>();

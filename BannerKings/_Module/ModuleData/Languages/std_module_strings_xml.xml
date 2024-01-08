@@ -2249,8 +2249,6 @@
     <string id="DWiRFSfS" text="Banner Kings - Important Concepts" />
     <string id="sFJ0pObc" text="Anything else?" />
     <string id="UKybEESB" text="Let me check your ranks." />
-    <string id="dxwTedS0" text="Not enough piety." />
-    <string id="hVJNXynE" text="Not enough influence." />
     <string id="cM7fEchf" text="{HERO} was installed as a preacher at {FIEF}" />
     <string id="MwCfjHL6" text="Can I learn about specific topics?" />
     <string id="69KyJPSL" text="{CLERGYMAN_TOPICS}" />
@@ -2307,7 +2305,6 @@
     <string id="AW5mYHB5" text="Cohesion boost to armies to they last longer, to counter balance the presence of more parties. Vanilla is 0%, 50% decreases cohesion loss by half. Default: 50%." />
     <string id="gDK2LRib" text="Maximum number of bandit parties in the world map. Vanilla is 150. Default: 150." />
     <string id="xTEWx9Zd" text="Acts endorsed by this group. Promoting any of these laws, policies or engaging in wars with these justifications (Casus Belli) will evoke the group's support." />
-    <string id="fE6RYz1k" text="Laws" />
     <string id="kP1H1dTq" text="Policies" />
     <string id="fiV2P3dD" text="Acts shunned by this group. Promoting any of these laws or policies reduce the group's support." />
     <string id="CJTfnQZR" text="Every group is capable of pushing demands for the ruler. Each demand requires a certain level of group influence. Supportive groups will push for less demands. Thus, high-support, low-influence groups are the least likely to push for any demands." />
@@ -2323,9 +2320,7 @@
     <string id="TrckwZCf" text="Family" />
     <string id="NMjbJsbD" text="Vassal" />
     <string id="PmNJnrJZ" text="Guest" />
-    <string id="8EX6VriS" text="Workforce" />
     <string id="A0MLAHO6" text="Non-Slaves" />
-    <string id="8xhVr4rK" text="Slaves" />
     <string id="DjzNUuoT" text="You are now camping in the vicinity of {FIEF}." />
     <string id="pZRUL363" text="Dismantle Camp" />
     <string id="PQaR5Cin" text="Truce Offering" />
@@ -2366,7 +2361,6 @@
     <string id="Qf9prhMy" text="Increased Pay" />
     <string id="6a12xd7A" text="Increase the revenue of your mercenary contract by 5% per level." />
     <string id="NWcM56ZP" text="You fail to meet the requirements or privilege is already maxed out.\n\nPoints: {POINTS}\nMax level: {LEVEL}" />
-    <string id="jvVup6nx" text="Workshop Grant" />
     <string id="ViDeTjkQ" text="Acquire a workshop property. The property will be situated in one of the towns of your contractor." />
     <string id="9PCO8Wkn" text="Your contractor is not currently capable of granting a workshop, due to lacking themselves or funds to subsidize the acquisition of one. Alternatively, you've reached your workshop limit.\nPoints: {POINTS}\nMax level: {LEVEL}" />
     <string id="7OaTLJKt" text="You are now the owner of {WORKSHOP} at {TOWN}!" />
@@ -2395,10 +2389,6 @@
     <string id="EoCMnvLM" text="A large infrastructure that allows easy access to the city by ships, and thus the flow of goods and money. Harbors output fish products, increase local trade power and prosperity." />
     <string id="YSv8Dzw1" text="Port" />
     <string id="CjjO5qs6" text="Infrastructure that allows easy access to town by ships, and thus the flow of goods and money. Ports output fish products, increase local trade power and prosperity." />
-    <string id="pJAF5pzO" text="Nobles" />
-    <string id="d0YJZ6Z1" text="Craftsmen" />
-    <string id="h9UDWQcM" text="Tenants" />
-    <string id="jH7cWD5r" text="Serfs" />
     <string id="UZNcONWY" text="Princes" />
     <string id="7SrQncCu" text="{HERO} research project is now {RESEARCH}." />
     <string id="bfzcDHdP" text="{HERO} has stopped researching {RESEARCH}: innovation is fully researched." />
@@ -2413,7 +2403,6 @@
     <string id="OqSj1HBK" text="Forum" />
     <string id="sLDyMt8s" text="A Calradian invention, the Forum is the center of town life, where announcements are made, sentences passed, and emperors are named. It is the marble heart of a city, and itself a form of art." />
     <string id="oD2NsLEO" text="Enables the construction of forums" />
-    <string id="rQmTMDxF" text="Theater" />
     <string id="0wsqttef" text="It is unclear whether Calradians or Laconians first invented Theaters. More than a building, theaters are a cultural innovation - common folk gather to watch elaborate, classical works of both tragedy and comedy. In many ways, theaters stablish a cultural foundation and promote cultural values through the stories told in them." />
     <string id="wnS5gm2Z" text="Enables the construction of theaters" />
     <string id="mX96pT3Z" text="Aqueducts" />
@@ -2486,7 +2475,6 @@
     <string id="vTg1TpWq" text="Militarism of {FIEF}" />
     <string id="byjOdZ8U" text="Prosperity of {TOWN}" />
     <string id="8xNix2pu" text="Yearly income" />
-    <string id="cVOU505N" text="Stability" />
     <string id="iNKRzazP" text="Towns (x{COUNT})" />
     <string id="CqNOH2qW" text="Villages (x{COUNT})" />
     <string id="Ce2gcy3j" text="Dignataries (x{MEMBERS})" />
@@ -2507,13 +2495,11 @@
     <string id="xSxKo7Gq" text="Hostile faith to {FAITH}" />
     <string id="T4kiLZJR" text="Untolerated faith to {FAITH}" />
     <string id="OgpTY8c6" text="Faith match with {KINGDOM}" />
-    <string id="wwYABLRd" text="Clan Influence Limit" />
     <string id="mH6dkHSp" text="Power of {HERO}" />
     <string id="3w3G1VQk" text="Missing holy site ({FIEF})" />
     <string id="goy63pDb" text="Missing faith seat ({FIEF})" />
     <string id="BPgMgury" text="Holy site ({FIEF})" />
     <string id="z0ifBnEL" text="Faith seat ({FIEF})" />
-    <string id="Jh6FdJFE" text="Highest title level" />
     <string id="m6qYgCZ2" text="Household member" />
     <string id="RDxuKgC6" text="Republican government only allows revoking of dukes." />
     <string id="EecVkFHJ" text="Imperial government requires being de Jure faction leader." />
@@ -2547,7 +2533,6 @@
     <string id="qR61PqMa" text="Shared culture" />
     <string id="vrm5pNf3" text="Honor of {HERO}" />
     <string id="Pcy4iFnT" text="Shared faith" />
-    <string id="gyHK87NL" text="Faith differences" />
     <string id="hAAOEqaJ" text="Peace interest" />
     <string id="TCVWRr8K" text="Paying tributes (x{COUNT})" />
     <string id="s21vTPmS" text="{THREAT}% threat relative to all possible enemies" />
@@ -2569,10 +2554,7 @@
     <string id="UaofTriA" text="Recently started war" />
     <string id="Nxrd7yym" text="Fatigue over this war" />
     <string id="fLSny0R8" text="{HERO}'s {TRAIT} personality" />
-    <string id="PSrEtF5L" text="Government" />
-    <string id="Q0AgGuB0" text="Production efficiency" />
     <string id="yjbfHwog" text="Private slaves" />
-    <string id="UPhMZ859" text="Castle" />
     <string id="kiBf4bre" text="Trade pact with {KINGDOM}" />
     <string id="NVoUn9ro" text="{GROUP} support" />
     <string id="0uSRkuoe" text="A trade pact is possible." />
@@ -2620,7 +2602,6 @@
     <string id="5Gphhg0D" text="No Front" />
     <string id="GTQCGxvy" text="In Effect" />
     <string id="er8kmimQ" text="Not Present" />
-    <string id="5n3dJTGc" text="None" />
     <string id="d92ORtRp" text="Implicit (Alliance)" />
     <string id="F4Vv8Lc8" text="Groups" />
     <string id="poddfSLQ" text="{TRAIT} is considered virtuous" />
@@ -2659,8 +2640,6 @@
     <string id="pdyn2oZQ" text="Gender Laws" />
     <string id="ozbmXS2t" text="Gender laws determine what gender is or not favorable for positions of power and take precedence in clan inheritances. You may propose a change to the gender law process that will be voted on by the peers.{newline}{newline}For more information, search for Gender Laws in Encyclopedia." />
     <string id="KABMkiJO" text="Propose" />
-    <string id="aELuNrRC" text="Inheritance" />
-    <string id="LESrJQvC" text="Gender Law" />
     <string id="AnFLBw7F" text="Interest Groups" />
     <string id="k7QVZnaK" text="Radical Groups" />
     <string id="GatcoJXF" text="Shipping Lanes" />
@@ -2685,7 +2664,6 @@
     <string id="kO0MyA6z" text="Removing {HERO} will cost you {PIETY}{PIETY_ICON} and {INFLUENCE}{INFLUENCE_ICON}. Moreover, due to their influence over the populace, the fief will suffer a loyalty hit of {LOYALTY} points reduction." />
     <string id="P1XuHMXg" text="{HERO} was removed as a preacher at {FIEF}" />
     <string id="tDfLwHfm" text="{CLAN} Career in {KINGDOM}" />
-    <string id="77D4i3pG" text="Privileges" />
     <string id="2uHBLzKE" text="No privileges yet! Acquire Career Points through service time and merit. Request privileges by spending these points." />
     <string id="9GCLaXGO" text="Service Time" />
     <string id="KXn0ibbd" text="Levy Character" />
@@ -2721,7 +2699,6 @@
     <string id="g0Pc7Awk" text="Holy Sites" />
     <string id="wprHBRFq" text="Holy sites are the fiefs directly connected to the religion's divinities or cults. Holding such sites is important for religious Fervor. In addition, being blessed by a Divinity in its holy site adds double the blessing duration.{newline}{newline}Sites:{SITES}" />
     <string id="s1CgckUZ" text="{HOLY_SITE}: {DIVINITY}" />
-    <string id="AfsRi9wL" text="Fervor" />
     <string id="mzqED2gB" text="{TEXT}\n\n{DESCRIPTION}" />
     <string id="mZR7knaH" text="No factors yet" />
     <string id="q8tYdtw5" text="Royalists" />
@@ -2769,8 +2746,6 @@
     <string id="AvndY1C2" text="Not in a party" />
     <string id="TFXtC96A" text="Not party leader" />
     <string id="EcMwWGrw" text="Will you make camp in this position? Dismantling the camp will have the party disorganized for a couple hours." />
-    <string id="q6cxgOou" text="Commander" />
-    <string id="k4oyM9dT" text="Steward" />
     <string id="ymwU30nA" text="The era of the Calradoi was the period in which the Imperium reigned unmatched. " />
     <string id="FEJnz4oY" text="Internecine Age" />
     <string id="UjhXMGN4" text="With the advent of the battle of Pendraic and death of emperor Arenicos Pethros, the former Imperium has shattered into civil war - an Internecine." />
@@ -2782,7 +2757,6 @@
     <string id="rMbnANLs" text="Gods of Fate" />
     <string id="dTiAb57A" text="According to the Junme, the world revolves around the concept of Urthr - or in other words, fate. The gods are stewards of the Great Oak that mankind inhabits, keeping its roots and leaves from rotting. Moreover, the gods are the force of justice that fights Ásbani, the God-Devouring Serpent. The gods of fate, they say, give man what is just - rewards to those who are brave and virtuous, and punishment to the wicked, for they do not weave what choices a man makes, but they do the consequences." />
     <string id="5n79UcKp" text="Signicantly increased renown and influence from battles" />
-    <string id="iE8OCyCv" text="Gods" />
     <string id="PNCUXEeh" text="Gundar" />
     <string id="aGjvnUcL" text="Ancestor Hero" />
     <string id="Debe88Qc" text="Arkina" />
@@ -2874,7 +2848,6 @@
     <string id="F72Gfcyg" text="Agnatic" />
     <string id="A4pJzFUm" text="Enatic" />
     <string id="onDTTX11" text="- Every year, an election for ruler takes place (Republican succession){newline}- Settlement production quality +10%{newline}- Settlement loyalty +1{newline}- Settlement mercantilism +50%" />
-    <string id="SW29YLBZ" text="Imperial" />
     <string id="G6WHqN14" text="The Calradoi Imperial government was created after its original Republic. Unlike feudal monarchies, the empire, though often hereditary, is built on a different ethos. Though a Senate may exist, it is more often than not a formality than an effective political force. All property is considered ultimately the emperor's, and thus their vassals are mere administrators, rather than owners of their domains. In theory, ruling families only inherit their properties by the emperor's grace, who temporarily holds them in the family head's death, before granting it back to them. In truth, many emperors cannot afford to not concede to such influential families. Imperial fiefs are highly integrated, with security and assimilation as priorities." />
     <string id="nMxCoz9E" text="- Settlement cultural weight +40%{newline}- Settlement security +1{newline}- Settlement mercantilism +20%" />
     <string id="7FEVXuj2" text="Tribal" />
@@ -2899,11 +2872,9 @@
     <string id="zO9KbLmQ" text="+++ Inheritance score (for clan inheritors)\n++ Title claim\n+ Clan tier" />
     <string id="xHWTU9Z9" text="- Any Full Peerage clan leader" />
     <string id="F35YO1hR" text="+++ Political traits\n++ Clan tier\n++ Skills\n+ Age" />
-    <string id="uUmEcuV8" text="Age" />
     <string id="DO0DJddX" text="Theocratic Elective" />
     <string id="FxdcWtEc" text="-Every clan leader of same faith as current ruler" />
     <string id="uS6zw1vO" text="++ Piety\n++ Virtues\n++ Zealotry\n+ Skills\n+ Clan tier" />
-    <string id="0EVuzzOU" text="Piety" />
     <string id="XNxbaSa8" text="Battanian Elective" />
     <string id="rtGNUhGU" text="The Battanian succession is traditionally reliant upon renown. Caladog fen Gruffendoc is a notorious exception, who managed to leverage his close relationship to the previous High King, Aeril fen Uthelhain, to rally the traditional houses behind him. Yet, the tradition of renowned, strong leaders remains - Battanians care little for 'legal arguments' such as claims, and instead respect force and name. Family members of the ruler are generally preferred, but will quickly be cast aside once a stronger option presents itself." />
     <string id="o8Ngf6oX" text="- Inheritance candidates of current ruler\n- Any clan leader of clan tier 5 or higher" />
@@ -2923,7 +2894,6 @@
     <string id="Y0YnorOk" text="Military Duties (Serfs)" />
     <string id="Yv7wL46p" text="Agricultural Duties (Serfs)" />
     <string id="1sEEZco9" text="Lax Duties (Serfs)" />
-    <string id="vKtLDRp6" text="Criminal" />
     <string id="Nx8wnMQb" text="Production task allows your workforce to produce goods wtihout hinderances. This task yields the most productivity and thus income by the estate." />
     <string id="dujKXYCD" text="Land expansion task sets part of your workforce to expand the estate's useful acreage. They wont be productive and thus the income is reduced. Increased acreage allows more population capacity." />
     <string id="NZTEBOw6" text="Acreage" />
@@ -2933,7 +2903,6 @@
     <string id="7nBuzpGs" text="The maximum capacity of people this estate can support. Population grows naturally, or can be grown directly by adding slaves to the estate." />
     <string id="3MPOYqBt" text="Manpower Capacity" />
     <string id="yWiaG3WM" text="The maximum capacity of people this estate's retinue can be. The retinue is determined by the estate's population, local task and militarism." />
-    <string id="eMZikYJ3" text="Production" />
     <string id="MX44kzxQ" text="Represents the share of the village's production that is owned by this estate. The estate's income equals the total village production * estate's production share * (1 - tax rate)." />
     <string id="OXrRc2H1" text="Estate Value" />
     <string id="A0Zgn9HD" text="Last Income" />
@@ -2978,7 +2947,6 @@
     <string id="qQbNuioA" text=", a member of your household" />
     <string id="npdeYCOm" text=" of the {CLAN}" />
     <string id="sJrbtFwD" text=", a local dignatary" />
-    <string id="1z57WDgP" text="Demesne Law Change" />
     <string id="ORfB9aOJ" text="Accept the demand to pass the {LAW} law. They will be satisfied with this outcome." />
     <string id="WWs1WShV" text="The {GROUP} is satisfied! {LAW} is now enacted in the realm." />
     <string id="dYhoJxo6" text="There are currently no supported policies that aren't already enacted, or shunned policies that are not enacted." />
@@ -3100,5 +3068,14 @@
     <string id="xWMAda9w" text="An offering to Horsa, the prophet Horse-God, to honor him for giving us the spirit to carve our kingdom." />
     <string id="FE5xFScd" text="{?PLAYER.GENDER}My lady{?}My lord{\\?}, a high quality is expected, so it may be worthy of your ancestors. Horsa came to this land and planted his spear to claim it. Now we give back to him, faithfully. Will you offer the {BLADE}?" />
     <string id="HfOqj748" text="Warhorse Sacrifice" />
+    <string id="JLJ3C1MS" text="Barony Grant" />
+    <string id="ZNs1vdEJ" text="Empire" />
+    <string id="ZLY2NQoN" text="Legitimacy" />
+    <string id="aG97dXtA" text="Tribal government does not allow revoking." />
+    <string id="TAkNRKb3" text="Idle garrison" />
+    <string id="smXw5vsz" text="Raise the current militia of this village." />
+    <string id="W14f8bQv" text="As overlord of this fief, you are able to banish preachers that do not represent your faith. They must not represent the local Dominant Religion.{newline}Banishing a preacher allows you to diminish their faith's presence, and thus increasing your own. Such act costs both piety and influence. Moreover, banishing preachers yields significant negative impact to local loyalty." />
+    <string id="sc2ZLdJc" text="Republic" />
+    <string id="0DGda79M" text="Will you offer these fine steeds to Wilund, the Smith?" />
   </strings>
 </base>

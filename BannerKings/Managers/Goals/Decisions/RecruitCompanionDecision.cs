@@ -93,7 +93,7 @@ namespace BannerKings.Managers.Goals.Decisions
                     DefaultTraits.Trader
                 }),
 
-                new CompanionType(new TextObject("Steward"),
+                new CompanionType(new TextObject("{=k4oyM9dT}Steward"),
                 new TextObject("{=gfmewont}A guest adept in stewardship. Stewards make for good governors to handle your demesne, as well as capable quartermasters. A rare gift that comes for a premium price. A steward will likely have at least 60 proficiency in stewardship."),
                 MathF.Max(cap * 0.11f, 45f),
                 new List<TraitObject>()

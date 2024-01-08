@@ -649,7 +649,7 @@ namespace BannerKings.Behaviours
                 var peerage = council.Peerage;
                 InformationManager.ShowInquiry(new InquiryData(
                     peerage.Name.ToString(),
-                    new TextObject("As part of creating a realm, the {CLAN} is now considered to have {PEERAGE}. {TEXT}")
+                    new TextObject("{=9hmdku7t}As part of creating a realm, the {CLAN} is now considered to have {PEERAGE}. {TEXT}")
                     .SetTextVariable("CLAN", Clan.PlayerClan.Name)
                     .SetTextVariable("PEERAGE", peerage.Name)
                     .SetTextVariable("TEXT", peerage.PeerageGrantedText())

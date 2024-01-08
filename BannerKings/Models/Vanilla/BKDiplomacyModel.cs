@@ -182,7 +182,7 @@ namespace BannerKings.Models.Vanilla
                         FaithStance faithStance = proposedReligion.GetStance(proposerReligion.Faith);
                         if (faithStance != FaithStance.Tolerated)
                         {
-                            result.Add(faithStance == FaithStance.Untolerated ? -20f : -50f, new TextObject("Faith differences"));
+                            result.Add(faithStance == FaithStance.Untolerated ? -20f : -50f, new TextObject("{=gyHK87NL}Faith differences"));
                         }
                     }
                 }

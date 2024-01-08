@@ -88,7 +88,7 @@ namespace BannerKings.Managers.Institutions.Religions.Faiths.Vlandia
             return new TextObject("{=BZAvfahk}Mount your horse and ready your lance. That is the way of the Wilunding. We shall plant the land with our spears and carve from it our kingdoms. The wights will be witness to your resolve.");
         }
 
-        public override TextObject GetCultsDescription() => new TextObject("Gods");
+        public override TextObject GetCultsDescription() => new TextObject("{=iE8OCyCv}Gods");
 
         public override TextObject GetDescriptionHint()
         {

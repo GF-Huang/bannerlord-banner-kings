@@ -121,7 +121,7 @@ namespace BannerKings.Models.BKModels
             KingdomDiplomacy diplomacy = group.KingdomDiplomacy;
             Hero sovereign = diplomacy.Kingdom.Leader;
 
-            result.Add(diplomacy.Legitimacy * group.LegitimacyFactor, new TextObject("Legitimacy"));
+            result.Add(diplomacy.Legitimacy * group.LegitimacyFactor, new TextObject("{=ZLY2NQoN}Legitimacy"));
 
             if (group.Leader != null)
             {

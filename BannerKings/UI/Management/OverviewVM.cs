@@ -162,7 +162,7 @@ namespace BannerKings.UI.Management
             var dominantCulture = data.CultureData.DominantCulture;
             CultureInfo.Add(new InformationElement(new TextObject("{=Vk6Maijr}Dominant Culture:").ToString(),
                 dominantCulture.Name.ToString(),
-                new TextObject("The most assimilated culture in this settlement, and considered the legal culture.")
+                new TextObject("{=8ootTEcK}The most assimilated culture in this settlement, and considered the legal culture.")
                 .ToString()));
 
             var dominantLanguage = BannerKingsConfig.Instance.EducationManager.GetNativeLanguage(dominantCulture);

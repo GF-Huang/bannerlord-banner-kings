@@ -44,7 +44,7 @@ namespace BannerKings.Models.BKModels
                     DefaultGenderLaws.Instance.Agnatic);
             }
 
-            result.Add(candidate.Age, new TextObject("Age"));
+            result.Add(candidate.Age, new TextObject("{=uUmEcuV8}Age"));
             if (currentLeader.Children.Contains(candidate))
             {
                 result.Add(contract.Inheritance.ChildrenScore, GameTexts.FindText(candidate.IsFemale ? "str_daughter" : "str_son"));
@@ -350,7 +350,7 @@ namespace BannerKings.Models.BKModels
             if (title.Contract.Government == DefaultGovernments.Instance.Tribal)
             {
                 revokeAction.Possible = false;
-                revokeAction.Reason = new TextObject("Tribal government does not allow revoking.")
+                revokeAction.Reason = new TextObject("{=aG97dXtA}Tribal government does not allow revoking.")
                     .SetTextVariable("ASPECT", DefaultGovernments.Instance.Tribal.Name);
                 return revokeAction;
             }

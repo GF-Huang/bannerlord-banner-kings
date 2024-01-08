@@ -367,7 +367,7 @@ namespace BannerKings.Models.Vanilla
                     if (garrisonNumber > 0)
                     {
                         var garrisonResult = garrisonNumber * (town.Security * 0.01f - 0.49f) * 0.1f;
-                        result.Add(garrisonResult, new TextObject("Idle garrison"));
+                        result.Add(garrisonResult, new TextObject("{=TAkNRKb3}Idle garrison"));
                     }
                 }
             }
@@ -384,7 +384,7 @@ namespace BannerKings.Models.Vanilla
                 }
 
                 num2 += MathF.Round(num2 * num4);
-                result.Add(num2 * num3, new TextObject("Craftsmen services"));
+                result.Add(num2 * num3, new TextObject("{=d0YJZ6Z1}Craftsmen services"));
             }
 
             if (town.Governor != null)

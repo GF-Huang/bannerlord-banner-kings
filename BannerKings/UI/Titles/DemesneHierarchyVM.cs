@@ -107,7 +107,7 @@ namespace BannerKings.UI.Titles
 
             Contract = contractButton;
 
-            TitleInfo.Add(new InformationElement(new TextObject("Total Population:").ToString(),
+            TitleInfo.Add(new InformationElement(new TextObject("{=9s1iC4kE}Total Population:").ToString(),
                 Population.ToString(), 
                 new TextObject("{=g4pjb4j4}The total population within the fiefs in this hierarchy regardless of who controls them.").ToString()));
 
@@ -121,7 +121,7 @@ namespace BannerKings.UI.Titles
             TitleInfo.Add(new InformationElement(new TextObject("{=aoZYxUYV}Government Type:").ToString(),
                 title.Contract.Government.Name.ToString(),
                 new TextObject("{=mzqED2gB}{TEXT}\n\n{DESCRIPTION}")
-                .SetTextVariable("TEXT", new TextObject("Government laws describe how different realms are organized. Different governments accept different types of policies and laws. Ie, republics do not accept policies such as Royal Guard, which highly favor a ruling dynasty. Moreover, government types define what kind of Succession a realm can practice."))
+                .SetTextVariable("TEXT", new TextObject("{=PSrEtF5L}Government laws describe how different realms are organized. Different governments accept different types of policies and laws. Ie, republics do not accept policies such as Royal Guard, which highly favor a ruling dynasty. Moreover, government types define what kind of Succession a realm can practice."))
                 .SetTextVariable("DESCRIPTION", title.Contract.Government.Description)
                 .ToString()));
 

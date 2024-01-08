@@ -164,7 +164,7 @@ namespace BannerKings.UI
                     hero.Clan.Name.ToString(), 0));
             }
 
-            properties.Add(new TooltipProperty(new TextObject("Capital").ToString(),
+            properties.Add(new TooltipProperty(new TextObject("{=fQVyeiJb}Capital").ToString(),
                     MBRandom.RoundRandomized(workshop.Capital).ToString(), 0));
 
             ExplainedNumber result = BannerKingsConfig.Instance.WorkshopModel.GetBuyingCostExplained(workshop, Hero.MainHero, true);
@@ -198,7 +198,7 @@ namespace BannerKings.UI
                 TooltipProperty.TooltipPropertyFlags.MultiLine));
 
             TooltipAddEmptyLine(properties);
-            properties.Add(new TooltipProperty(new TextObject("Laws").ToString(), " ", 0));
+            properties.Add(new TooltipProperty(new TextObject("{=fE6RYz1k}Laws").ToString(), " ", 0));
             properties.Add(new TooltipProperty("", string.Empty, 0, false, TooltipProperty.TooltipPropertyFlags.RundownSeperator));
 
             foreach (var law in group.SupportedLaws)
@@ -243,7 +243,7 @@ namespace BannerKings.UI
                 TooltipProperty.TooltipPropertyFlags.MultiLine));
 
             TooltipAddEmptyLine(properties);
-            properties.Add(new TooltipProperty(new TextObject("Laws").ToString(), " ", 0));
+            properties.Add(new TooltipProperty(new TextObject("{=fE6RYz1k}Laws").ToString(), " ", 0));
             properties.Add(new TooltipProperty("", string.Empty, 0, false, TooltipProperty.TooltipPropertyFlags.RundownSeperator));
 
             foreach (var law in group.ShunnedLaws)
@@ -955,9 +955,9 @@ namespace BannerKings.UI
         {
             var list = new List<TooltipProperty>
             {
-                new(string.Empty, new TextObject("Workforce").ToString(), 0, false, TooltipProperty.TooltipPropertyFlags.Title),
+                new(string.Empty, new TextObject("{=8EX6VriS}Workforce").ToString(), 0, false, TooltipProperty.TooltipPropertyFlags.Title),
                 new TooltipProperty(new TextObject("{=A0MLAHO6}Non-Slaves").ToString(), estate.Population.ToString(), 0),
-                      new TooltipProperty(new TextObject("Slaves").ToString(), estate.Slaves.ToString(), 0)
+                      new TooltipProperty(new TextObject("{=8xhVr4rK}Slaves").ToString(), estate.Slaves.ToString(), 0)
             };
 
             return list;
